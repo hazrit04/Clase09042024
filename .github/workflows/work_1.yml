@@ -1,8 +1,15 @@
-name: Work 1 Dorx
-on: [push]
+name: Tarea 7
+on: 
+  push:
+    branches:
+      - test_1
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
     - name: Print Something
-      run: echo "Hola Pitayaa!"
+      run: echo "Impresión 1"
+    - name: Print Something 2
+      run: echo "Impresión 2"
+    - name: Print Something 3
+      run: echo "Impresión 3"
