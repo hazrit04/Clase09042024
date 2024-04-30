@@ -1,4 +1,4 @@
-name: Tarea 7
+name: Examen 3
 on: 
   push:
     branches:
@@ -8,8 +8,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Print Something
-      run: echo "Impresión 1"
+      run: echo "Tirzah Peniche Barba"
     - name: Print Something 2
-      run: echo "Impresión 2"
+      run: node --version
     - name: Print Something 3
-      run: echo "Impresión 3"
+      run: echo "739502"
